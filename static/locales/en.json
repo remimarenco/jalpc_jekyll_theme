@@ -9,7 +9,7 @@
     "projects": "Projects",
     "career": "Career",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Social Link"
   },
   "about_me":{
     "about_me": "About Me",
@@ -47,7 +47,7 @@
     "my_blog": "My Blog"
   },
   "contact":{
-    "contact_me": "Contact Me",
+    "contact_me": "Social Link",
     "email": "Send me mail",
     "follow": "Or through the following ways"
   }
