@@ -15,11 +15,7 @@ It's pretty minimal, but leverages large type and drastic contrast to make a sta
 
 The landing page of the blog is bilingual page.
 
-If you like this Jekyll theme,please give me encouragement and star this project,I will make it better.
-
-## Ad
-
-[Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
+If you like this Jekyll theme, please give me encouragement and star this project, I will make it better.
 
 ## Getting Started
 
@@ -44,21 +40,21 @@ The _config.yml located in the root of the jalpc_jekyll_theme directory contains
 # Welcome to Jekyll!
 
 # Site settings
-title: "Jalpc"    ### Website title
+title: "Remi Marenco"    ### Website title
 
 baseurl: "/"      ### Some links refer to this
-url: "http://www.jack003.com"     ### This is for product environment
+url: "http://www.marenco.remionramp.com"     ### This is for product environment
 # url: "http://127.0.0.1:4000"    ### This is used for debug 
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'   ### Relative path
+  name: 'Remi Marenco'
+  first_name: 'Remi'
+  last_name: 'Marenco'
+  email: 'remi.marenco@gmail.com'
+  facebook_username: 'remi.marenco'
+  github_username: 'remimarenco'
+  head_img: 'static/img/landing/Remi.jpg'
 
 # landing page
 landing:
@@ -68,28 +64,6 @@ landing:
   skills: 'Skills'
   blog: 'Blog'
   contact: 'Contact'
-
-# blog index
-index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
-
-# comment
-changyan:
-  appid: cysfY7ULn
-  conf: prod_861928934cecb7a18e15bedaed9dae29
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# blog img path
-img_path: '/static/img/blog'    ### Full path
 
 ...
 ```
@@ -195,16 +169,16 @@ cn.json
 ``` json
 {
   "website":{
-    "title": "杰克的博客"
+    "title": "Site de Remi Marenco"
   },
   "nav":{
-    "home": "首页",
-    "about_me": "关于我",
-    "skills": "技能",
-    "career": "职业",
-    "blog": "博客",
-    "contact": "联系我"
-  }
+    "home": "Accueil",
+    "about_me": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "career": "Carrière",
+    "blog": "Blog",
+    "contact": "Contact"
 }
 ```
 
@@ -240,7 +214,7 @@ HTML markup
 
 ``` html
 <a class="btn btn-sm set_en"><img src="{{"static/img/flags/64/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
-<a class="btn btn-sm set_cn"><img src="{{"static/img/flags/64/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+<a class="btn btn-sm set_cn"><img src="{{"static/img/flags/64/France.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
 ```
 
 Javascript code
@@ -303,9 +277,9 @@ If you want to give credit to the Jalpc theme with a link to my personal website
 
 I hope you enjoy using Jalpc. If you encounter any issues, please feel free to let me know by creating an issue. I'd love to help.
 
-## Upgrading Jalpc
+## Upgrading this template
 
-Jalpc is always being improved by its users, so sometimes one may need to upgrade.
+This website or Jalpc (the original repo) is always being improved by its users, so sometimes one may need to upgrade.
 
 ### Ensure there's an upstream remote
 
