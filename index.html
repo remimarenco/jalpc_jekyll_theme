@@ -22,13 +22,13 @@ permalink: /
                         <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
                         <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
                         <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
-                        <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
+                        <li><a class="page-scroll" href="#hobbies"><span data-i18n="nav.interests">{{ site.landing.hobbies }}</span></a></li>
                         <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
                         <li>
                             <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
                         <li>
-                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/France.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
+                            <a class="btn btn-sm set_fr"><img src="{{"static/img/flags/France.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
 
                     </ul>
@@ -364,14 +364,12 @@ permalink: /
     <br><br>
 </section>
 
-<section id="blog" class="navy-section testimonials" style="margin-top: 0">
+<section id="hobbies" class="navy-section testimonials" style="margin-top: 0">
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
-                <br><br><br><br>
-                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
-                <br><br><br><br>
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_hobbies">
+                Hobbies
             </div>
         </div>
     </div>
@@ -484,7 +482,7 @@ permalink: /
             $('#i18_skills').i18n();
             $('#i18_projects').i18n();
             $('#i18_career').i18n();
-            $('#i18_blog').i18n();
+            $('#i18_hobbies').i18n();
             $('#i18_contact').i18n();
         });
 
@@ -497,7 +495,7 @@ permalink: /
                 $('#i18_skills').i18n();
                 $('#i18_projects').i18n();
                 $('#i18_career').i18n();
-                $('#i18_blog').i18n();
+                $('#i18_hobbies').i18n();
                 $('#i18_contact').i18n();
 
                 // $('.set_en').addClass('active');
@@ -505,8 +503,8 @@ permalink: /
             });
         });
 
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
+        $('.set_fr').on('click', function (){
+            i18n.setLng('fr', function(){
                 $('.i18container').i18n();
                 // $('#i18_title').i18n();
                 $('#i18_navbar').i18n();
@@ -514,7 +512,7 @@ permalink: /
                 $('#i18_skills').i18n();
                 $('#i18_projects').i18n();
                 $('#i18_career').i18n();
-                $('#i18_blog').i18n();
+                $('#i18_hobbies').i18n();
                 $('#i18_contact').i18n();
 
                 // $('.set_cn').addClass('active');
