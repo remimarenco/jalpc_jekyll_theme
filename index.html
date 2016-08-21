@@ -468,15 +468,8 @@ permalink: /
 <script>
 
     $(document).ready(function (){
-
-        $.i18n.init({
-            resGetPath: 'static/locales/__lng__.json',
-            load: 'unspecific',
-            fallbackLng: false,
-            lng: 'en'
-        }, function (t){
+        function refresh_lang(){
             $('.i18container').i18n();
-            // $('#i18_title').i18n();
             $('#i18_navbar').i18n();
             $('#i18_about_me').i18n();
             $('#i18_skills').i18n();
@@ -484,39 +477,27 @@ permalink: /
             $('#i18_career').i18n();
             $('#i18_hobbies').i18n();
             $('#i18_contact').i18n();
+        }
+
+        $.i18n.init({
+            resGetPath: 'static/locales/__lng__.json',
+            load: 'unspecific',
+            fallbackLng: false,
+            lng: 'en'
+        }, function (t){
+            console.log("Hello!");
+            refresh_lang();
         });
 
         $('.set_en').on('click', function (){
             i18n.setLng('en', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_hobbies').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_en').addClass('active');
-                // $('.set_cn').removeClass('active');
+                refresh_lang();
             });
         });
 
         $('.set_fr').on('click', function (){
             i18n.setLng('fr', function(){
-                $('.i18container').i18n();
-                // $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_hobbies').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
+                refresh_lang();
             });
         });
 
