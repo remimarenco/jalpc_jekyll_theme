@@ -2,30 +2,30 @@
 
 # Website settings
 title: "Remi Marenco"
-description: "From Software Engineering passion to Computational Biology revolution"
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+description: "Remi Marenco: From Software Engineering passion to Computational Biology revolution"
+keywords: "Remi, Marenco, Remi Marenco, Jekyll, Computational Biology, Galaxy Project, Bioinformatics"
 
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://www.marenco.remionramp.com"
 # url: "http://127.0.0.1:4000"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  name: 'Remi Marenco'
+  first_name: 'Remi'
+  last_name: 'Marenco'
+  email: 'remi.marenco@gmail.com'
+  facebook_username: 'remi.marenco'
+  github_username: 'remimarenco'
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  first_name: 'Remi'
+  last_name: 'Marenco'
+  description: 'Passion for Science'
+  link: 'https://github.com/remimarenco'
+  email: 'remi.marenco@gmail.com'
 
 # landing page
 landing:
