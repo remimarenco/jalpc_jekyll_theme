@@ -17,15 +17,16 @@ author:
   email: 'remi.marenco@gmail.com'
   facebook_username: 'remi.marenco'
   github_username: 'remimarenco'
-  head_img: 'static/img/landing/Remi.jpg'
+  head_img: 'static/img/landing/remi_marenco.jpg'
 
 # social link
-jingyu:
-  first_name: 'Remi'
-  last_name: 'Marenco'
-  description: 'From Software Engineering passion to Computational Biology revolution'
-  link: 'https://github.com/remimarenco'
-  email: 'remi.marenco@gmail.com'
+nikki_phoolchund:
+  first_name: 'Nikki'
+  last_name: 'Phoolchund'
+  description: "One's destination is never a place but rather a new way of looking at things"
+  linkedin: 'https://www.linkedin.com/in/nikki-phoolchund-88a6a760/'
+  email: 'npslp2.cam@gmail.com'
+  head_img: 'static/img/landing/nikki_phoolchund.jpg'
 
 # landing page
 landing:
@@ -35,7 +36,7 @@ landing:
   skills: 'Skills'
   projects: 'Project'
   hobbies: 'Hobbies'
-  contact: 'Contact'
+  links: 'Links'
 
 # my projects
 project:

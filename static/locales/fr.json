@@ -12,20 +12,20 @@
     "contact": "Contact"
   },
   "about_me":{
-    "about_me": "About Me",
+    "about_me": "À Propos",
     "des": "Passionné par les nouvelles technologies dont particulièrement l'informatique, la biotechnologie et la robotique, je suis un développeur qui aime travailler avec les langages objet et le web."
   },
   "skills":{
-    "my_skills": "My Skills"
+    "my_skills": "Mes Compétences"
   },
   "projects":{
-    "my_projects": "My Projects",
+    "my_projects": "Mes Projets",
     "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
     "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
     "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
   },
   "career":{
-    "my_career": "My Career",
+    "my_career": "Ma Carrière",
     "nextcode": "Nextcode",
     "nextcode_des": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
     "nextcode_date": "Apr. 2016",
@@ -46,8 +46,8 @@
   "blog":{
     "my_blog": "My Blog"
   },
-  "contact":{
-    "contact_me": "Link",
+  "links":{
+    "contact_me": "Liens",
     "email": "Send me mail",
     "follow": "Or through the following ways"
   }
