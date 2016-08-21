@@ -17,13 +17,13 @@ author:
   email: 'remi.marenco@gmail.com'
   facebook_username: 'remi.marenco'
   github_username: 'remimarenco'
-  head_img: 'static/img/landing/Jack.jpg'
+  head_img: 'static/img/landing/Remi.jpg'
 
 # social link
 jingyu:
   first_name: 'Remi'
   last_name: 'Marenco'
-  description: 'Passion for Science'
+  description: 'Passion for Software and Science'
   link: 'https://github.com/remimarenco'
   email: 'remi.marenco@gmail.com'
 
