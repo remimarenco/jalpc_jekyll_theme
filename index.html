@@ -38,9 +38,20 @@ permalink: /
 </div>
 
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <!-- TODO: Only parse once, store in a variable the images -->
     <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
+        {% assign first_ok = false %}
+        {% increment my_counter %}
+        {% for carousel_image in site.static_files %}
+            {% if carousel_image.path contains 'img/carousel' %}
+                <li data-target="#inSlider" data-slide-to="{{ my_counter }}"
+                {% if my_counter == 0 %}
+                     class="active"
+                {% endif %}
+                ></li>
+                {% increment my_counter %}
+            {% endif %}
+        {% endfor %}
     </ol>
     <div class="carousel-inner" role="listbox">
         {% assign first_ok = false %}
@@ -53,7 +64,7 @@ permalink: /
                     <div class="item">
                 {% endif %}
                         <div class="container">
-                            {% if forloop.index == 0 %}
+                            {% if first_ok == false %}
                                 <div class="carousel-caption">
                                 </div>
                             {% else %}
