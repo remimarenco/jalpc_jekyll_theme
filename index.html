@@ -40,16 +40,16 @@ permalink: /
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <!-- TODO: Only parse once, store in a variable the images -->
     <ol class="carousel-indicators">
-        {% assign first_ok = false %}
-        {% increment my_counter %}
+        {% assign counter = 0 %}
         {% for carousel_image in site.static_files %}
             {% if carousel_image.path contains 'img/carousel' %}
-                <li data-target="#inSlider" data-slide-to="{{ my_counter }}"
-                {% if my_counter == 0 %}
-                     class="active"
+                <li data-target="#inSlider"
+                    data-slide-to="{{ counter }}"
+                {% if counter == 0 %}
+                    class="active"
                 {% endif %}
                 ></li>
-                {% increment my_counter %}
+                {% assign counter = counter | plus: 1 %}
             {% endif %}
         {% endfor %}
     </ol>
