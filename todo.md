@@ -4,3 +4,4 @@
 - [ ] Use Jekyll power to generate the section instead of lines duplications
 - [ ] Think about sorting the skills by the percentage (ascending?)
 - [ ] Career shoud be manipulate in _data/career.yml, not repeated in eng.json/fr.json/index.html
+- [ ] Change favicon
