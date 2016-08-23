@@ -427,11 +427,25 @@ permalink: /
             <div class="row">
                 <div class="col-sm-4 wow fadeInLeft">
                     <div class="team-member">
-                        <img src="{{ site.project.gonramp.img | prepend: site.baseurl }}"
-                             class="img-responsive img-circle img-small" alt="">
-                        <h4><span class="navy">{{ site.project.gonramp.name }}</span></h4>
+                        <a href="{{ site.project.gonramp.url }}" target="_blank">
+                            <img src="{{ site.project.gonramp.img | prepend: site.baseurl }}"
+                                 class="img-responsive img-circle img-small" alt="">
+                            <h4><span class="navy">{{ site.project.gonramp.name }}</span></h4>
+                        </a>
                         <p><span data-i18n="projects.gonramp"></span>
                         </p>
+                        <ul class="list-inline social-icon">
+                            <li>
+                                <a href="{{ site.project.gonramp.url }}"
+                                   target="blank">
+                                    <i class="fa fa-globe"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.project.gonramp.github }}"
+                                   target="blank">
+                                    <i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -442,6 +456,18 @@ permalink: /
                         <h4><span class="navy">{{ site.project.jscoverageqc.name }}</span></h4>
                         <p><span data-i18n="projects.jscoverageqc"></span>
                         </p>
+                        <ul class="list-inline social-icon">
+                            <li>
+                                <a href="{{ site.project.jscoverageqc.url }}"
+                                   target="blank">
+                                    <i class="fa fa-globe"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.project.jscoverageqc.github }}"
+                                   target="blank">
+                                    <i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -452,6 +478,18 @@ permalink: /
                         <h4><span class="navy">{{ site.project.pousse_de_bambin.name }}</span></h4>
                         <p><span data-i18n="projects.pousse_de_bambin"></span>
                         </p>
+                        <ul class="list-inline social-icon">
+                            <li>
+                                <a href="{{ site.project.pousse_de_bambin.url }}"
+                                   target="blank">
+                                    <i class="fa fa-globe"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.project.pousse_de_bambin.github }}"
+                                   target="blank">
+                                    <i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

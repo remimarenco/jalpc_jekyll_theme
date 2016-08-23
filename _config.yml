@@ -43,15 +43,18 @@ landing:
 project:
   gonramp:
     name: 'G-OnRamp'
-    url: '/remimarenco/gonramp'
+    url: 'https://galaxy.colonialone.gwu.edu/gonramp'
+    github: 'https://github.com/remimarenco/gonramp'
     img: 'static/img/projects/galaxy_project.png'
   jscoverageqc:
     name: 'JsCoverageQC'
-    url: '/remimarenco/JsCoverageQC'
+    url: 'https://github.com/remimarenco/JsCoverageQC'
+    github: 'https://github.com/remimarenco/JsCoverageQC'
     img: 'static/img/projects/jscoverageqc.jpg'
   pousse_de_bambin:
     name: 'Pousse De Bambin'
-    url: '/remimarenco/PousseDeBambin'
+    url: 'http://poussedebambin.azurewebsites.net/'
+    github: 'https://github.com/remimarenco/PousseDeBambin'
     img: 'static/img/projects/pousse_de_bambin_logo.png'
 
 # blog index
