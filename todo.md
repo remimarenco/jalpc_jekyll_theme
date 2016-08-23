@@ -1,0 +1,4 @@
+- [ ] Find Galaxy project icon, and replace the C# one
+- [ ] Find another icon Computational Biology related
+- [ ] Add link to my PDF CV
+- [ ] Use Jekyll power to generate the section instead of lines duplications
