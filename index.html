@@ -34,12 +34,16 @@ permalink: /
                     <li><a class="page-scroll" href="#links"><span data-i18n="nav.links">{{ site.landing.links }}</span></a>
                     </li>
                     <li>
-                        <a class="btn btn-sm set_en"><img src="{{" static/img/flags/United-States.png"| prepend:
-                            site.baseurl }}" height="16px" width="16px"></a>
+                        <a class="btn btn-sm set_en">
+                            <img src="{{ 'static/img/flags/United-States.png' | prepend: site.baseurl }}"
+                                height="16px" width="16px">
+                        </a>
                     </li>
                     <li>
-                        <a class="btn btn-sm set_fr"><img src="{{" static/img/flags/France.png"| prepend: site.baseurl
-                            }}" height="16px" width="16px"></a>
+                        <a class="btn btn-sm set_fr">
+                            <img src="{{ 'static/img/flags/France.png' | prepend: site.baseurl }}"
+                                height="16px" width="16px">
+                        </a>
                     </li>
 
                 </ul>
@@ -265,16 +269,42 @@ permalink: /
                     </div>
                     <div class="col-lg-7 features-text wow fadeInLeft">
                         <div class="progress progress-bar-default">
-                            <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80"
+                            <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80"
                                  role="progressbar" class="progress-bar">
-                                <span class="sr-only">85% Complete (success)</span>
+                                <span class="sr-only">80% Complete (success)</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-                        <p>AngularJS</p>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="col-lg-7 features-text wow fadeInLeft">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75"
+                                 role="progressbar" class="progress-bar">
+                                <span class="sr-only">75% Complete (success)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col-lg-7 features-text wow fadeInLeft">
+                        <div class="progress progress-bar-default">
+                            <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85"
+                                 role="progressbar" class="progress-bar">
+                                <span class="sr-only">55% Complete (success)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                        <p>Linux/Shell</p>
                     </div>
                     <div class="col-lg-7 features-text wow fadeInLeft">
                         <div class="progress progress-bar-default">
@@ -287,26 +317,26 @@ permalink: /
                 </div>
                 <div class="row">
                     <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-                        <p>HTML5</p>
+                        <p>C#</p>
                     </div>
                     <div class="col-lg-7 features-text wow fadeInLeft">
                         <div class="progress progress-bar-default">
-                            <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85"
+                            <div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75"
                                  role="progressbar" class="progress-bar">
-                                <span class="sr-only">65% Complete (success)</span>
+                                <span class="sr-only">75% Complete (success)</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-                        <p>Linux/Shell</p>
+                        <p>Java</p>
                     </div>
                     <div class="col-lg-7 features-text wow fadeInLeft">
                         <div class="progress progress-bar-default">
-                            <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70"
+                            <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70"
                                  role="progressbar" class="progress-bar">
-                                <span class="sr-only">80% Complete (success)</span>
+                                <span class="sr-only">70% Complete (success)</span>
                             </div>
                         </div>
                     </div>
@@ -327,93 +357,31 @@ permalink: /
             <div class="row">
                 <div class="col-sm-4 wow fadeInLeft">
                     <div class="team-member">
-                        <img src="{{ site.project.saplatform.img | prepend: site.baseurl }}"
+                        <img src="{{ site.project.gonramp.img | prepend: site.baseurl }}"
                              class="img-responsive img-circle img-small" alt="">
-                        <h4><span class="navy">{{ site.project.saplatform.name }}</span></h4>
-                        <p><span data-i18n="projects.saplatform">Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.</span>
+                        <h4><span class="navy">{{ site.project.gonramp.name }}</span></h4>
+                        <p><span data-i18n="projects.gonramp"></span>
                         </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.saplatform.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-star"
-                                   data-count-href="{{ site.project.saplatform.url | append: '/stargazers' }}"
-                                   data-count-api="{{ site.project.saplatform.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                                   data-count-aria-label="# stargazers on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                            </li>
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.saplatform.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-fork"
-                                   data-count-href="{{ site.project.saplatform.url | append: '/forks' }}"
-                                   data-count-api="{{ site.project.saplatform.url | prepend: '/repos' | append: '#forks_count' }}"
-                                   data-count-aria-label="# forks on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                            </li>
-
-                        </ul>
                     </div>
                 </div>
 
                 <div class="col-sm-4 wow">
                     <div class="team-member">
-                        <img src="{{ site.project.jalpc.img | prepend: site.baseurl }}"
+                        <img src="{{ site.project.jscoverageqc.img | prepend: site.baseurl }}"
                              class="img-responsive img-circle img-small" alt="">
-                        <h4><span class="navy">{{ site.project.jalpc.name }}</span></h4>
-                        <p><span data-i18n="projects.jalpc">Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.</span>
+                        <h4><span class="navy">{{ site.project.jscoverageqc.name }}</span></h4>
+                        <p><span data-i18n="projects.jscoverageqc"></span>
                         </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.jalpc.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-star"
-                                   data-count-href="{{ site.project.jalpc.url | append: '/stargazers' }}"
-                                   data-count-api="{{ site.project.jalpc.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                                   data-count-aria-label="# stargazers on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                            </li>
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.jalpc.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-fork"
-                                   data-count-href="{{ site.project.jalpc.url | append: '/forks' }}"
-                                   data-count-api="{{ site.project.jalpc.url | prepend: '/repos' | append: '#forks_count' }}"
-                                   data-count-aria-label="# forks on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
 
                 <div class="col-sm-4 wow fadeInRight">
                     <div class="team-member">
-                        <img src="{{ site.project.angularjs.img | prepend: site.baseurl }}"
+                        <img src="{{ site.project.pousse_de_bambin.img | prepend: site.baseurl }}"
                              class="img-responsive img-circle img-small" alt="">
-                        <h4><span class="navy">{{ site.project.angularjs.name }}</span></h4>
-                        <p><span data-i18n="projects.angularjs">It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.</span>
+                        <h4><span class="navy">{{ site.project.pousse_de_bambin.name }}</span></h4>
+                        <p><span data-i18n="projects.pousse_de_bambin"></span>
                         </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.angularjs.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-star"
-                                   data-count-href="{{ site.project.angularjs.url | append: '/stargazers' }}"
-                                   data-count-api="{{ site.project.angularjs.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                                   data-count-aria-label="# stargazers on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                            </li>
-                            <li>
-                                <a class="github-button"
-                                   href="{{ site.project.angularjs.url | prepend: 'https://github.com'}}"
-                                   data-icon="octicon-fork"
-                                   data-count-href="{{ site.project.angularjs.url | append: '/forks' }}"
-                                   data-count-api="{{ site.project.angularjs.url | prepend: '/repos' | append: '#forks_count' }}"
-                                   data-count-aria-label="# forks on GitHub"
-                                   aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                            </li>
-
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -421,6 +389,7 @@ permalink: /
         <br><br>
     </section>
 
+    <!--
     <section id="hobbies" class="navy-section testimonials" style="margin-top: 0">
 
         <div class="container">
@@ -432,6 +401,7 @@ permalink: /
         </div>
 
     </section>
+    -->
 
     <section id="links" class="contact features">
         <div class="container" id="i18_links">

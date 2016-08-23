@@ -2,3 +2,4 @@
 - [ ] Find another icon Computational Biology related
 - [ ] Add link to my PDF CV
 - [ ] Use Jekyll power to generate the section instead of lines duplications
+- [ ] Think about sorting the skills by the percentage (ascending?)
