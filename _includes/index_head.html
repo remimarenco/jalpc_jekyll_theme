@@ -9,7 +9,22 @@
   <meta name="author" content="{{ site.author.name }}">
   <title>{{ site.title }}</title>
   <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "static/img/favicon.ico" | prepend: site.baseurl }}">
+  {% capture favicon_folder %}{{ "static/img/favicon" | prepend: site.baseurl }}{% endcapture %}
+
+  <link rel="shortcut icon" href="{{ "/favicon.ico" type="image/x-icon" | prepend: favicon_folder }}">
+  <link rel="icon" href="{{ "/favicon.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="57x57" href="{{ "/favicon-32x32.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="57x57" href="{{ "/favicon-57x57.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="72x72" href="{{ "/favicon-72x72.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="76x76" href="{{ "/favicon-76x76.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="114x114" href="{{ "/favicon-114x114.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="120x120" href="{{ "/favicon-120x120.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="144x144" href="{{ "/favicon-144x144.png" | prepend: favicon_folder }}">
+  <link rel="icon" sizes="152x152" href="{{ "/favicon-152x152.png" | prepend: favicon_folder }}">
+
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="{{ "/favicon-144x144.png" | prepend: favicon_folder }}">
+  <meta name="application-name" content="Website Title">
 
   <!-- Third-party CSS -->
   <link href="{{"bower_components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
