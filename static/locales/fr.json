@@ -4,12 +4,14 @@
   },
   "nav":{
     "home": "Accueil",
-    "about_me": "À propos",
+    "about": "À propos",
     "skills": "Compétences",
     "projects": "Projets",
     "career": "Carrière",
     "hobbies": "Hobbies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "links": "Liens",
+    "resume": "CV"
   },
   "about_me":{
     "about_me": "À Propos",

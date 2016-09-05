@@ -4,12 +4,14 @@
   },
   "nav":{
     "home": "Home",
-    "about_me": "About",
+    "about": "About",
     "skills": "Skills",
     "projects": "Projects",
     "career": "Career",
     "hobbies": "Hobbies",
-    "contact": "Contact"
+    "contact": "Contact",
+    "links": "Links",
+    "resume": "Resume"
   },
   "about_me":{
     "about_me": "About Me",

@@ -43,6 +43,8 @@ landing:
     id: 'projects'
   - title: 'Links'
     id: 'links'
+  - tile: 'Resume'
+    id: 'resume'
 
 # my projects
 project:
