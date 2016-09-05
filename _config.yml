@@ -31,13 +31,18 @@ nikki_phoolchund:
 
 # landing page
 landing:
-  home: 'Home'
-  about: 'About'
-  career: 'Career'
-  skills: 'Skills'
-  projects: 'Project'
-  hobbies: 'Hobbies'
-  links: 'Links'
+  - title: "Home"
+    id: 'home'
+  - title: "About"
+    id: 'about'
+  - title: "Career"
+    id: 'career'
+  - title: 'Skills'
+    id: 'skills'
+  - title: 'Projects'
+    id: 'projects'
+  - title: 'Links'
+    id: 'links'
 
 # my projects
 project:
