@@ -1,7 +1,8 @@
-- [ ] Find Galaxy project icon, and replace the C# one
-- [ ] Find another icon Computational Biology related
-- [ ] Add link to my PDF CV
+- [x] Find Galaxy project icon, and replace the C# one
+- [x] Find another icon Computational Biology related (My dog!)
+- [x] Add link to my PDF CV
 - [ ] Use Jekyll power to generate the section instead of lines duplications
-- [ ] Think about sorting the skills by the percentage (ascending?)
-- [ ] Career shoud be manipulate in _data/career.yml, not repeated in eng.json/fr.json/index.html
-- [ ] Change favicon
+- [x] Think about sorting the skills by the percentage (ascending?)
+- [ ] Career shoud be manipulated in _data/career.yml, not repeated in eng.json/fr.json/index.html
+- [x] Change favicon
+- [ ] Instead of having to change the trigger width for the top-links, when they are too long...process the total-width of the window >= left button container + right links container else trigger the mobile mode
