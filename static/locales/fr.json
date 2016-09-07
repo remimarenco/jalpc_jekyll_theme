@@ -20,40 +20,75 @@
   "skills":{
     "my_skills": "Mes Compétences"
   },
-  "projects":{
-    "my_projects": "Mes Projets",
-    "gonramp": "G-Onramp is a project to engage biologists with Big Data using interactive genome annotation. Built as Galaxy Project member, in collaboration with Washington University - St Louis and George Washington University.",
-    "jscoverageqc": "JsCoverageQC is a port, from Java to ReactJS, of a next generation sequencing (NGS) quality control (QC) report generator. Built as Freelancer for Galaxy Project.",
+  "projects": {
+    "my_projects":      "My Projects",
+    "gonramp":          "G-Onramp is a project to engage biologists with Big Data using interactive genome annotation. Built as Galaxy Project team member",
+    "jscoverageqc":     "JsCoverageQC is a port, from Java to ReactJS, of a next generation sequencing (NGS) quality control (QC) report generator. Built as Freelancer for Galaxy Project.",
     "pousse_de_bambin": "Pousse De Bambin is a website for parents to create and share the birthlist of their coming newborn. Built as CEO/CTO, in the startup incubator EM Lyon."
   },
-  "career":{
-    "my_career": "Ma Carrière",
-    "cbi":{
-      "name":        "George Washington University, Computational Biology Institute, Goecks' Lab, Galaxy Project",
-      "description": "Now I am in Nextcode and develop website with Python code for genetic analysis.",
+  "career":   {
+    "my_career":           "My Career",
+    "cbi":                 {
+      "name":        "George Washington University, Computational Biology Institute, Galaxy Project, Washington D.C., USA",
+      "description": "Main developer of G-OnRamp: Engaging Biologists with Big Data Using Interactive Genome Annotation (DOI: 10.6084/m9.figshare.3456203). #Galaxy Project, #Python, #Cheetah, #Computational Biology, #Genome Browser",
       "date":        "Dec. 2015",
       "position":    "Senior Research Associate - BioInformatics Software Engineer"
     },
-    "netease": "Netease Game",
-    "netease_des": "In Netease game, I learned game service system and use Python code for ops.",
-    "netease_date": "Jun. 2015",
-    "netease_job": "Dev Ops",
-    "ucloud": "Ucloud",
-    "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
-    "ucloud_date": "Sep. 2013",
-    "ucloud_job": "Dev Ops",
-    "college": "Graduation",
-    "college_des": "At July 2013,I graduated from college and started my IT technology tour.",
-    "college_date": "Jul. 2013",
-    "college_job": "Student"
+    "cruk":                {
+      "name":        "Cancer Research UK, Cambridge, UK",
+      "description": "Bring the Galaxy instances of the Galaxy Project to a robust and efficient production level, with CRUK cluster job submissions. Add tools in the instance and train CRUK members and students to use Galaxy. #Galaxy Project, #Python, #Linux, #Unix Shell",
+      "date":        "Sep. 2015",
+      "position":    "Computational Biologist engineer - Galaxy Project"
+    },
+    "freelance":           {
+      "name":        "Marenco Freelancing, Europe (France, Czech Republic, UK)",
+      "description": "Port from #Java to #Javascript/#ReactJS a quality control generator (QC) for next generation sequencing data (JsCoverageQC). Client:Galaxy Project. Efficient gigs #Java #JSF 1.2 development on an #AS400. Teaching Assistant professor in the Engineering school CPE: #C/#Websites",
+      "date":        "Nov. 2014",
+      "position":    "Software Engineer Freelance"
+    },
+    "hospitals_lyon":      {
+      "name":        "University Hospitals of Lyon, France",
+      "description": "Rewrite core modules for the new architecture (#ASP.Net MVC 5/#Knockout.js/#Bootstrap 3). Maintain legacy module (#ASP.Net MVC 4/#Bootstrap 2).",
+      "date":        "Jun. 2014",
+      "position":    "Software Engineer"
+    },
+    "pousse_de_bambin":    {
+      "name":        "'Pousse De Bambin' Startup - EM Lyon Incubator, France",
+      "description": "CEO of Pousse De Bambin birthlist website, in the EM Lyon business school incubator. Manage a team of 5 people (including volunteers). #ASP.Net MVC 4/5, #Microsoft Azure, #jQuery, #Knowckout.js. #Trello/#MS Project",
+      "date":        "Sep. 2013",
+      "position":    "Website CEO - CTO"
+    },
+    "graduation_engineer": {
+      "name":        "Software Engineer Graduation, CPE Lyon, France",
+      "description": "Alternate between full-time study and full-time work in a company. Specialization in computer science, networks and telecommunications.",
+      "date":        "Jun. 2013",
+      "position":    "Computer Engineer diploma of higher education - Cooperative Education"
+    },
+    "galaxy_intern":       {
+      "name":        "Galaxy Project, Emory, Atlanta, GA, U.S.A",
+      "description": "Fix bugs, add tools, implement new functionalities (#Python/#Mako/#Git). Champion and prototype Galaxy Biostar (#Django).",
+      "date":        "Jun. 2012",
+      "position":    "Software Developer - Intern"
+    },
+    "graduation_bachelor": {
+      "name":        "Professional Bachelor's Degree - Cooperative Education, Lyon, France",
+      "description": "Alternate between full-time study and full-time work in a company. Specialization in computer systems and software.",
+      "date":        "Jun. 2010",
+      "position":    "Cooperative bachelor student"
+    },
+    "graduation_dut":      {
+      "name":        "DUT Graduation, IUT A, Lyon, France",
+      "description": "DUT is a two year intensive university diploma. Specialization in Computer Science, Software engineering",
+      "date":        "Jun. 2009",
+      "position":    "DUT Student"
+    }
   },
-  "blog":{
+  "blog":     {
     "my_blog": "My Blog"
   },
-  "links":{
-    "contact_me": "Liens",
-    "email": "Send me mail",
-    "follow": "Or through the following ways"
+  "links":    {
+    "contact_me": "Link",
+    "email":      "Send me mail",
+    "follow":     "Or through the following ways"
   }
-
 }
